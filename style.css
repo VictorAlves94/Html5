@@ -1,8 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body {
+    height: 100vhs;
+    box-sizing: border-box;
     background-color: rgb(0, 30, 32);
     color: rgb(255, 255, 255);
 
 }
-strong{
+.destaqueTitulo{
     color: rgb(255, 0, 0);
+}
+.aprecentacao{
+    margin: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
