@@ -17,6 +17,9 @@ body {
 .destaqueTitulo{
     color: rgb(255, 0, 0);
 }
+.destaqueTitulo:hover{
+    color: rgb(121, 50, 179);
+}
 .aprecentacao{
     margin: 10% 20%;
     display: flex;
@@ -50,6 +53,9 @@ body {
     font-size: 24px;
 }
 .aprecentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     text-align: center;
     border: 2px solid #22d4fd;
@@ -61,6 +67,9 @@ body {
     color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
 
+}
+.aprecentacao__links__link:hover{
+    background-color:rgb(0, 177, 147) ;
 }
 .foto_principal{
 border-radius: 30px;
