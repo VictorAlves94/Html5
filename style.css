@@ -8,7 +8,7 @@
 
 
 body {
-    height: 100vhs;
+    /* height: 100vhs; */
     box-sizing: border-box;
     background-color: rgb(0, 30, 32);
     color: rgb(255, 255, 255);
@@ -21,7 +21,7 @@ body {
     color: rgb(121, 50, 179);
 }
 .aprecentacao{
-    margin: 10% 20%;
+    padding:  8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,4 +73,13 @@ body {
 }
 .foto_principal{
 border-radius: 30px;
+}
+.rodape{
+   text-align: center;
+    padding: 24px;
+    color:black;
+    background-color: blue;
+    font-size: 24px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
 }
