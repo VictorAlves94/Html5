@@ -1,24 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root{
+    --cor-primaria: rgb(0, 30, 32);
+    --cor-segundaria:#f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #380180;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-segundaria: 'Montserrat', sans-serif;
+
+
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-
-
 body {
     /* height: 100vhs; */
     box-sizing: border-box;
-    background-color: rgb(0, 30, 32);
-    color: rgb(255, 255, 255);
+    background-color: var(--cor-primaria);
+    color: var(--cor-segundaria);
 
 }
 .destaqueTitulo{
     color: rgb(255, 0, 0);
 }
 .destaqueTitulo:hover{
-    color: rgb(121, 50, 179);
+    color: var(--cor-hover);
 }
 .cabecalho{
     padding: 2% 0% 0% 15%;
@@ -29,10 +39,10 @@ body {
 }
 
 .cabecalho__menu__link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-segundaria);
     font-size: 24px;
     font-weight: 600;
-    color: #22d4fd;
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 .aprecentacao{
@@ -49,10 +59,10 @@ body {
 }
 .aprecentacao__conteudo__titulo{
     font-size: 36px;
-    font-family:'Krona One', sans-serif;
+    font-family:var(--fonte-primaria);
 }
 .aprecentacao__conteudo__texto{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-segundaria);
     font-size: 24px;
 }
 .aprecentacao__links{
@@ -63,7 +73,7 @@ body {
     gap: 32px;
 }
 .aprecentacao__links__subtitulo{
-    font-family:'Krona One', sans-serif;
+    font-family:var(--fonte-primaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -73,14 +83,14 @@ body {
     gap: 16px;
     width: 378px;
     text-align: center;
-    border: 2px solid #22d4fd;
+    border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #f6f6f6;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-segundaria);
+    font-family: var(--fonte-segundaria);
 
 }
 .aprecentacao__links__link:hover{
@@ -95,6 +105,6 @@ border-radius: 30px;
     color:black;
     background-color: blue;
     font-size: 24px;
-    font-family:'Montserrat', sans-serif;
+    font-family: var(--fonte-segundaria);
     font-weight: 400;
 }
